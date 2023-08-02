@@ -1,0 +1,28 @@
+.custom-row{
+    color: rgb(32, 49, 49);
+    background-color: rgb(234, 189, 242);
+    font-size: large;
+    border: 2px solid #7a61e5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #c0d7eb, #efd4de);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.custom-row .editBtn, .custom-row .deleteBtn {
+    background: linear-gradient(45deg, #384184, #bfa1c8);
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+body {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
